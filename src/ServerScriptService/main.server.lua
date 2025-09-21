@@ -1,0 +1,1 @@
+print("ServerScriptService MainScript is running!")

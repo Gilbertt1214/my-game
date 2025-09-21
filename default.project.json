@@ -1,0 +1,27 @@
+{
+    "name": "MyGame",
+    "tree": {
+        "$className": "DataModel",
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "MainScript": {
+                "$path": "src/ServerScriptService/main.server.lua"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "Client": {
+                    "$path": "src/StarterPlayer/StarterPlayerScripts/client.client.lua"
+                }
+            }
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Shared": {
+                "$path": "src/ReplicatedStorage/shared.lua"
+            }
+        }
+    }
+}
