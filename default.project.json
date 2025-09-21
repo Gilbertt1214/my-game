@@ -13,7 +13,7 @@
             "StarterPlayerScripts": {
                 "$className": "StarterPlayerScripts",
                 "Client": {
-                    "$path": "src/StarterPlayer/StarterPlayerScripts/client.client.lua"
+                    "$path": "src/StarterPlayer/StarterPlayerScripts/client.lua"
                 }
             }
         },
